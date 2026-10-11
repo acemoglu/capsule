@@ -111,12 +111,21 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42em;
   margin: 0 0 0.85rem;
   font-family: var(--font-display);
-  font-size: clamp(3.2rem, 9vw, 5.4rem);
+  font-size: clamp(2.7rem, 7.2vw, 4.6rem);
   font-weight: 800;
   letter-spacing: -0.055em;
   line-height: 0.92;
+}
+
+.brand-mark {
+  width: 1.05em;
+  height: 1.05em;
+  flex: none;
 }
 
 .hero h1 {
@@ -396,10 +405,18 @@ a {
 }
 
 .footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-family: var(--font-display);
   font-weight: 700;
   color: var(--ink);
   letter-spacing: -0.03em;
+}
+
+.footer-brand img {
+  width: 1.35rem;
+  height: 1.35rem;
 }
 
 .footer-links {
@@ -432,10 +449,18 @@ a {
 }
 
 .page-top a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--font-display);
   font-weight: 700;
   text-decoration: none;
   letter-spacing: -0.03em;
+}
+
+.page-top img {
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .legal {
